@@ -1,0 +1,30 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 45px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-header {
+  background-color: #ee6e73;
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  text-align: center;
+  width: 100%;
+  background-color: #343a40;
+  border-top: 5px solid #ee6e73;
+}
+
+footer small {
+  line-height: 40px;
+  color: #d2b773;
+  font-size: 12px;
+}
