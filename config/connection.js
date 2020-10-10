@@ -6,6 +6,7 @@
 require("dotenv").config();
 // Requiring mysql package
 const mysql = require("mysql");
+var connection;
 
 // Setting up our connection information
 if (process.env.JAWSDB_URL) {
