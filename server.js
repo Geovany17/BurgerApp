@@ -21,6 +21,10 @@ var routes = require("./controllers/burgers_controller.js");
 app.use(routes);
 
 //listen
-app.listen(PORT, function () {
-  console.log("Server listening on: http://localhost:" + PORT);
+app.listen(process.env.PORT || 3000, function () {
+  console.log(
+    "Express server listening on port %d in %s mode",
+    this.address().port,
+    app.settings.env
+  );
 });
