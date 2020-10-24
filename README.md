@@ -1,4 +1,4 @@
-# ![icon](public/assets/img/icons-hamburger.png) Eat-Da-Burger! ![icon](public/assets/img/icons-hamburger.png)
+# ![icon](public/assets/img/icons-hamburger.png) BurgerApp! ![icon](public/assets/img/icons-hamburger.png)
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
